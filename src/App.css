@@ -1,0 +1,42 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.game-container {
+  padding: 20px;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.square:hover {
+  background-color: #e9ecef;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.game-info {
+  margin-top: 20px;
+}
+
+.game-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-info li {
+  margin: 5px 0;
+}
